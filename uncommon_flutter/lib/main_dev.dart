@@ -4,9 +4,9 @@ import 'package:uncommonflutter/configs/app_config.dart';
 
 void main() {
   AppConfig().setConfig(
-    environment: Environment.Production,
-    apiBaseUrl: 'https://example.com/api/v1',
-    apiKey: 'abc123',
+    environment: Environment.Development,
+    apiBaseUrl: 'https://dev.example.com/api/v1',
+    apiKey: 'dev:abc123',
   );
   runApp(MyApp());
 }
